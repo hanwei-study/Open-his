@@ -1,0 +1,57 @@
+#spring的配置
+spring:
+  #数据源的配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://150.158.214.219:3306/open-his?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 
+    #注入数据源的类型   默认的为HikariDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-active: 20
+      min-idle: 5
+      initial-size: 3
+      max-wait: 9000
+      stat-view-servlet:
+        #        login-username: root
+        #        login-password: 123456
+        allow:
+        deny:
+        url-pattern: /druid/*
+        enabled: true  #启用数据源监控
+  #配置redis
+  redis:
+    port: 6379
+    host: 150.158.214.219
+    password: 
+  mvc:
+    format:
+      date: yyyy-MM-dd HH:mm:ss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+#mybatisplus的配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  global-config:
+    db-config:
+      id-type: auto
+#dubbo配置
+dubbo:
+  application:
+    name: his-doctor-service
+  registry:
+    address: zookeeper://150.158.214.219:2181
+    timeout: 10000
+  consumer:
+    check: false
+  config-center:
+    timeout: 10000
+  provider:
+    timeout: 10000
+  protocol:
+    name: dubbo
+    port: -1

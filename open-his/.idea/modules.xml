@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/his-doctor/doctor-api/doctor-api.iml" filepath="$PROJECT_DIR$/his-doctor/doctor-api/doctor-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-doctor/doctor-domain/doctor-domain.iml" filepath="$PROJECT_DIR$/his-doctor/doctor-domain/doctor-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-doctor/doctor-mapper/doctor-mapper.iml" filepath="$PROJECT_DIR$/his-doctor/doctor-mapper/doctor-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-doctor/doctor-service/doctor-service.iml" filepath="$PROJECT_DIR$/his-doctor/doctor-service/doctor-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-erp/erp-api/erp-api.iml" filepath="$PROJECT_DIR$/his-erp/erp-api/erp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-erp/erp-domain/erp-domain.iml" filepath="$PROJECT_DIR$/his-erp/erp-domain/erp-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-erp/erp-mapper/erp-mapper.iml" filepath="$PROJECT_DIR$/his-erp/erp-mapper/erp-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-erp/erp-service/erp-service.iml" filepath="$PROJECT_DIR$/his-erp/erp-service/erp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-commons/his-commons.iml" filepath="$PROJECT_DIR$/his-commons/his-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-doctor/his-doctor.iml" filepath="$PROJECT_DIR$/his-doctor/his-doctor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-erp/his-erp.iml" filepath="$PROJECT_DIR$/his-erp/his-erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-statistics/his-statistics.iml" filepath="$PROJECT_DIR$/his-statistics/his-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/his-system.iml" filepath="$PROJECT_DIR$/his-system/his-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/open-his.iml" filepath="$PROJECT_DIR$/open-his.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-statistics/statistics-api/statistics-api.iml" filepath="$PROJECT_DIR$/his-statistics/statistics-api/statistics-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-statistics/statistics-domain/statistics-domain.iml" filepath="$PROJECT_DIR$/his-statistics/statistics-domain/statistics-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-statistics/statistics-mapper/statistics-mapper.iml" filepath="$PROJECT_DIR$/his-statistics/statistics-mapper/statistics-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-statistics/statistics-service/statistics-service.iml" filepath="$PROJECT_DIR$/his-statistics/statistics-service/statistics-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/system-api/system-api.iml" filepath="$PROJECT_DIR$/his-system/system-api/system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/system-domain/system-domain.iml" filepath="$PROJECT_DIR$/his-system/system-domain/system-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/system-mapper/system-mapper.iml" filepath="$PROJECT_DIR$/his-system/system-mapper/system-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/system-service/system-service.iml" filepath="$PROJECT_DIR$/his-system/system-service/system-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/his-system/system-web/system-web.iml" filepath="$PROJECT_DIR$/his-system/system-web/system-web.iml" />
+    </modules>
+  </component>
+</project>
